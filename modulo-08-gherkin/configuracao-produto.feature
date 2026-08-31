@@ -7,7 +7,7 @@ Funcionalidade: Configuração de Produto
   para depois inserir no carrinho de compras
 
   Cenário: Configurar produto e inserir no carrinho
-    Dado que estou na página do produto "Shots de praia"
+    Dado que estou na página do produto "Shorts de praia"
     Quando seleciono o tamanho "M"
     E seleciono a cor "Azul"
     E seleciono a quantidade "2"
@@ -15,7 +15,7 @@ Funcionalidade: Configuração de Produto
     Então o produto deve ser adicionado ao carrinho com as configurações selecionadas
 
   Cenário: Configurar produto sem selecionar tamanho e cor e quantidade
-    Dado que estou na página do produto "Shots de praia"
+    Dado que estou na página do produto "Shorts de praia"
     Quando não seleciono o tamanho
     E não seleciono a cor
     E não seleciono a quantidade
@@ -23,7 +23,7 @@ Funcionalidade: Configuração de Produto
     Então Não deve ser possível adicionar o produto ao carrinho 
 
   Cenário: Configurar produto com quantidade inválida
-    Dado que estou na página do produto "Shots de praia"
+    Dado que estou na página do produto "Shorts de praia"
     E seleciono o tamanho "M"
     E seleciono a cor "Azul" 
     Quando seleciono a quantidade "11"
@@ -31,7 +31,7 @@ Funcionalidade: Configuração de Produto
     Então Não deve ser possivel adicionar o produto ao carrinho
 
  Cenário: Limpar configurações do produto
-    Dado que estou na página do produto "Shots de praia"
+    Dado que estou na página do produto "Shorts de praia"
     Quando seleciono o tamanho "M"
     E seleciono a cor "Azul"
     E seleciono a quantidade "2"
