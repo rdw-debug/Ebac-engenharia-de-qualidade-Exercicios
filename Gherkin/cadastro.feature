@@ -1,4 +1,3 @@
-
 # language: pt
 
 Funcionalidade: Cadastro de cliente
@@ -17,10 +16,10 @@ Funcionalidade: Cadastro de cliente
     Então o sistema deve apresentar o resultado "<resultado>"
 
     Exemplos:
-      | email             | resultado                           |
-      | cliente@teste.com | cadastro concluído com sucesso      |
-      | clienteteste.com  | mensagem de erro de e-mail inválido |
-      | cliente@teste     | mensagem de erro de e-mail inválido |
+      | email              | resultado                            |
+      | cliente@teste.com  | cadastro concluído com sucesso       |
+      | clienteteste.com   | mensagem de erro de e-mail inválido  |
+      | cliente@teste      | mensagem de erro de e-mail inválido  |
 
   Cenário: Concluir cadastro com campos obrigatórios vazios
     Dado que estou na tela de cadastro
